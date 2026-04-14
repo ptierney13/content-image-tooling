@@ -26,12 +26,12 @@ TITLE_SHADOW = (0, 0, 0, 110)
 
 DEFAULT_CANVAS_SIZE = (1536, 1024)
 SIDEBOARD_PLAN_TYPES = {"sideboard"}
-SLIDE_PLAN_TYPES = {"informative", "follow_up"}
+SLIDE_PLAN_TYPES = {"informative", "follow_up", "feature"}
 
 
 def _usage(script_name: str) -> int:
     print(f"Usage: python {script_name} <plans.json> [plan]")
-    print("Plan types: sideboard (default), informative, follow_up")
+    print("Plan types: sideboard (default), informative, follow_up, feature")
     return 1
 
 
@@ -74,6 +74,14 @@ def _filename_slug(text: str) -> str:
     while "--" in cleaned:
         cleaned = cleaned.replace("--", "-")
     return cleaned.strip("-") or "asset"
+
+
+def _strip_known_card_suffixes(stem: str) -> str:
+    cleaned = stem
+    for suffix in ("-riftbound-card", "-card", "-render", "-full", "-official"):
+        if cleaned.endswith(suffix):
+            cleaned = cleaned[: -len(suffix)]
+    return cleaned
 
 
 def _first_value(*values):
@@ -253,6 +261,21 @@ def _load_font(size: int, *, bold: bool = False) -> ImageFont.ImageFont:
 def _text_size(draw: ImageDraw.ImageDraw, text: str, font: ImageFont.ImageFont) -> tuple[int, int]:
     left, top, right, bottom = draw.textbbox((0, 0), text, font=font)
     return right - left, bottom - top
+
+
+def _first_alpha_character(text: str) -> str:
+    for character in text.lstrip():
+        if character.isalpha():
+            return character
+    stripped = text.lstrip()
+    if stripped:
+        return stripped[0]
+    return "A"
+
+
+def _bullet_anchor_center_y(draw: ImageDraw.ImageDraw, text: str, font: ImageFont.ImageFont, line_y: int) -> int:
+    _, top, _, bottom = draw.textbbox((0, 0), _first_alpha_character(text), font=font)
+    return line_y + round((top + bottom) / 2)
 
 
 def _fit_font(draw: ImageDraw.ImageDraw, text: str, max_width: int, *, start_size: int, min_size: int, bold: bool) -> ImageFont.ImageFont:
@@ -573,13 +596,41 @@ class CardAssetResolver:
             raise RuntimeError(f"Request failed for {url}: {exc.reason}") from exc
 
 
+def _default_output_image(plan: dict) -> str | None:
+    if plan.get("type") != "feature":
+        return None
+
+    cards = plan.get("cards", [])
+    if len(cards) != 1:
+        raise ValueError("Feature slides require exactly one card to derive a default filename.")
+
+    base_slide_path = _first_value(plan.get("base_slide"), plan.get("background", {}).get("image"), plan.get("background", {}).get("path"))
+    if not base_slide_path:
+        raise ValueError("Feature slides require a base_slide or background image to derive a default filename.")
+
+    card = cards[0]
+    card_name = _first_value(card.get("card_name"), card.get("name"), card.get("card_code"))
+    if not card_name:
+        local_path = _first_value(card.get("local_path"), card.get("path"))
+        if local_path:
+            card_name = _strip_known_card_suffixes(Path(str(local_path)).stem)
+    if not card_name:
+        raise ValueError("Feature slides need a card_name/name/card_code or local_path/path to derive the default filename.")
+
+    source_stem = _filename_slug(Path(str(base_slide_path)).stem)
+    card_stem = _filename_slug(str(card_name))
+    return f"{source_stem}-featuring-{card_stem}.png"
+
+
 def _resolve_output_path(deck_dir: Path, config: dict, plan: dict) -> Path:
+    plan_type = plan.get("type", "sideboard")
     output_path = plan.get("output_path")
     if output_path:
         resolved = _resolve_deck_path(deck_dir, output_path)
     else:
-        output_dir = _resolve_deck_path(deck_dir, plan.get("output_dir") or config.get("output_dir", "Sideboard Guides"))
-        output_name = plan.get("output_image")
+        default_output_dir = "Features" if plan_type == "feature" else "Slides" if plan_type in SLIDE_PLAN_TYPES else "Sideboard Guides"
+        output_dir = _resolve_deck_path(deck_dir, plan.get("output_dir") or config.get("output_dir", default_output_dir))
+        output_name = plan.get("output_image") or _default_output_image(plan)
         if not output_name:
             raise ValueError("Plan must include either output_path or output_image.")
         resolved = output_dir / output_name
@@ -639,8 +690,6 @@ def _draw_informative_slide(deck_dir: Path, config: dict, output_path: Path, mat
     bullet_indent = plan.get("bullet_indent", 46)
     bullet_style = plan.get("bullet_style", "dot")
     text_bottom = plan.get("text_bottom")
-    _, reference_height = _text_size(draw, "Ag", body_font)
-
     bullet_layouts = []
     for bullet in bullets:
         text = bullet["text"] if isinstance(bullet, dict) else str(bullet)
@@ -663,7 +712,7 @@ def _draw_informative_slide(deck_dir: Path, config: dict, output_path: Path, mat
         bullet_spacing = max(0, math.floor(available_gap / (len(bullet_layouts) - 1)))
 
     for bullet_layout in bullet_layouts:
-        bullet_center_y = current_y + math.floor(bullet_layout["line_heights"][0] / 2)
+        bullet_center_y = _bullet_anchor_center_y(draw, bullet_layout["lines"][0], body_font, current_y)
         _draw_bullet_icon(draw, (text_left, bullet_center_y), bullet_layout["style"])
         line_y = current_y
         for line, line_height in zip(bullet_layout["lines"], bullet_layout["line_heights"]):
@@ -759,6 +808,13 @@ def _draw_follow_up_slide(deck_dir: Path, config: dict, output_path: Path, match
     return output_path
 
 
+def _draw_feature_slide(deck_dir: Path, config: dict, output_path: Path, matchup_name: str, plan: dict, resolver: CardAssetResolver) -> Path:
+    feature_plan = dict(plan)
+    feature_plan.setdefault("title", "")
+    feature_plan.setdefault("card_layout", {"mode": "featured_center"})
+    return _draw_follow_up_slide(deck_dir, config, output_path, matchup_name, feature_plan, resolver)
+
+
 def _render_sideboard_plan(deck_dir: Path, config: dict, layout: dict, base_image_path: Path, matchup_name: str, plan: dict) -> Path:
     output_path = _resolve_output_path(deck_dir, config, plan)
     with Image.open(base_image_path).convert("RGBA") as base:
@@ -837,6 +893,8 @@ def _render_plan(
         return _draw_informative_slide(deck_dir, config, _resolve_output_path(deck_dir, config, plan), matchup_name, plan, resolver)
     if plan_type == "follow_up":
         return _draw_follow_up_slide(deck_dir, config, _resolve_output_path(deck_dir, config, plan), matchup_name, plan, resolver)
+    if plan_type == "feature":
+        return _draw_feature_slide(deck_dir, config, _resolve_output_path(deck_dir, config, plan), matchup_name, plan, resolver)
     raise ValueError(f"Unsupported plan type: {plan_type}")
 
 

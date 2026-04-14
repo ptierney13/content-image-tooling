@@ -1,10 +1,11 @@
 # Slides
 
-This workflow is for talking-point slides and explicit follow-up slides.
+This workflow is for talking-point slides, feature slides, and explicit follow-up slides.
 
 Use it to render:
 
 - `informative` slides with a title, bullets, optional left-side cards, and either a patterned or faded-image background
+- `feature` slides that blur a known source slide and center one featured card on top
 - `follow_up` slides that blur a known base slide and add specific cards on top
 
 ## Command
@@ -12,6 +13,7 @@ Use it to render:
 ```powershell
 python scripts/generate_slide.py "Set 2\Ezreal Tempo\slide-plans.json"
 python scripts/generate_slide.py "Set 2\Ezreal Tempo\slide-plans.json" "Irelia Summary"
+python scripts/generate_slide.py "Set 2\Ezreal Tempo\slide-plans.json" "Ezreal Tempo Maindeck Featuring Ruin Runner"
 ```
 
 ## Plan File Shape
@@ -56,6 +58,13 @@ The cleanest setup is a dedicated `slide-plans.json` file under the Slides workf
         { "card_name": "Dr. Mundo, Expert" },
         { "card_name": "Possession" }
       ]
+    },
+    "Kai'sa Matchup Guide Featuring Ruin Runner": {
+      "type": "feature",
+      "base_slide": "References/kai-sa-matchup-guide.png",
+      "cards": [
+        { "card_name": "Ruin Runner", "local_path": "Cards/ruin-runner.png" }
+      ]
     }
   }
 }
@@ -82,6 +91,27 @@ Supported keys:
 
 Informative slides support zero, one, or two featured cards on the left.
 
+## Feature Slides
+
+Use `feature` when you want one centered card over a blurred source image.
+
+Supported keys:
+
+- `type: "feature"`
+- `base_slide`
+- `cards`
+  - exactly one card
+- `title`
+  - optional; defaults to hidden
+- `output_image` or `output_path`
+  - optional; defaults to `<source-slide>-featuring-<card-name>.png`
+- `output_dir`
+  - optional; defaults to `Features`
+- `card_layout`
+  - optional override when you need custom centered margins
+
+Feature-slide card entries should include `card_name` even when `local_path` is provided so the default filename stays clean and stable.
+
 ## Follow-Up Slides
 
 Use `follow_up` only when you already know:
@@ -100,11 +130,6 @@ Supported keys:
 - `card_layout`
   - `grid`
     - the default auto-grid for one or more cards
-  - `{ "mode": "featured_center" }`
-    - a single large centered hero card over the blurred background
-    - optional `top_margin`, `bottom_margin`, and `side_margin` values let you tune the framing
-
-Use `featured_center` when you want a decklist or source image blurred behind one exact card render without hand-tuning a box each time.
 
 ## Card Sourcing
 
@@ -114,6 +139,13 @@ Cards should come from Riot-provided assets. The renderer supports:
 - `card_name` or `card_code` plus `card_assets.catalogs`
 - `local_path` for a pre-downloaded official Riot asset that you already cached locally
 
+Recommended folder split for deck-specific slide assets:
+
+- `References/` for source slides and blurred-background inputs
+- `Cards/` for official card renders used in overlays
+- `Slides/` for informative slide outputs
+- `Features/` for single-card feature-slide outputs
+
 Catalog entries can be either:
 
 - official-style records with `name`, `cardCode`, and `assets[0].gameAbsolutePath`
@@ -121,7 +153,7 @@ Catalog entries can be either:
 
 ## Background Suggestions
 
-If an informative slide requests a faded image background or a follow-up slide omits `base_slide`, the script will suggest:
+If an informative slide requests a faded image background, or a feature/follow-up slide omits `base_slide`, the script will suggest:
 
 1. the config `base_image` if one exists
 2. otherwise the first image it finds in `Maindeck/`

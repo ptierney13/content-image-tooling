@@ -4,10 +4,6 @@
     {
       "source": "C:/Users/ptier/OneDrive/Desktop/Content/Riftbound/Video Tooling/Image Generation/Decklist Images/Set 2/Ezreal Tempo/Maindeck/ezreal-tempo-maindeck.png",
       "destination": "References/ezreal-tempo-maindeck.png"
-    },
-    {
-      "source": "C:/Users/ptier/OneDrive/Desktop/Content/Riftbound/Video Tooling/Image Generation/Decklist Images/Set 2/Ezreal Tempo/References/ruin-runner-riftbound-card.png",
-      "destination": "References/ruin-runner-riftbound-card.png"
     }
   ],
   "plans": {
@@ -38,11 +34,8 @@
         "Don't play scared, make them have it"
       ]
     },
-    "Ruin Runner Feature": {
-      "type": "follow_up",
-      "output_dir": "Slides",
-      "output_image": "Ruin Runner Feature.png",
-      "title": "",
+    "Ezreal Tempo Maindeck Featuring Ruin Runner": {
+      "type": "feature",
       "base_slide": "References/ezreal-tempo-maindeck.png",
       "background": {
         "blur_radius": 20,
@@ -59,7 +52,8 @@
       },
       "cards": [
         {
-          "local_path": "References/ruin-runner-riftbound-card.png"
+          "card_name": "Ruin Runner",
+          "local_path": "Cards/ruin-runner.png"
         }
       ]
     }
