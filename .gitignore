@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+
+Video Tooling/Image Generation/_tmp_refactor_verify/
+Video Tooling/Image Generation/**/_card_cache/

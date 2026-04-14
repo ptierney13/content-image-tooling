@@ -1,0 +1,26 @@
+{
+  "image_size": [1906, 1066],
+  "slots": {
+    "maindeck.ezreal": [412, 126, 594, 362],
+    "maindeck.gust": [597, 126, 779, 362],
+    "maindeck.stacked_deck": [781, 126, 963, 362],
+    "maindeck.stupefy": [966, 126, 1148, 362],
+    "maindeck.bellows_breath": [1150, 126, 1332, 362],
+    "maindeck.frigid_touch": [1335, 126, 1517, 362],
+    "maindeck.plundering_poro": [1519, 126, 1701, 362],
+    "maindeck.ravenbloom_student": [1703, 126, 1885, 362],
+    "maindeck.windsinger": [412, 385, 594, 621],
+    "maindeck.rebuke": [597, 385, 779, 621],
+    "maindeck.sneaky_deckhand": [781, 385, 963, 621],
+    "maindeck.sprite_call": [966, 385, 1148, 621],
+    "maindeck.wages_of_pain": [1150, 385, 1332, 621],
+    "maindeck.fizz": [1335, 385, 1517, 621],
+    "maindeck.singularity": [1519, 385, 1701, 621],
+    "maindeck.thousand_tailed_watcher": [1703, 385, 1885, 621],
+    "sideboard.factory_recall": [412, 659, 594, 895],
+    "sideboard.retreat": [597, 659, 779, 895],
+    "sideboard.hard_bargain": [781, 659, 963, 895],
+    "sideboard.rebuke": [966, 659, 1148, 895],
+    "sideboard.vex": [1150, 659, 1332, 895]
+  }
+}

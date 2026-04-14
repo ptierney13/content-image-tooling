@@ -1,0 +1,277 @@
+﻿E Forward Ezreal
+
+
+This Ezreal deck is a “tempo” deck, meaning it plays heavily towards getting a point advantage in the early turns. Once we've gotten ahead on points early, we are aiming to build incremental advantage off our opponent being forced to overextend defensively. 
+
+
+The deck: https://piltoverarchive.com/decks/view/0dd9d062-7c39-48e1-95b0-be18677d8c64
+
+
+
+
+The deck really has 4 core components to it: 
+
+
+* Small efficient units. In Riftbound, any unit can take points, so we play the cheapest and most efficient units possible. Sneaky Deckhand is the only unit in the game capable of scoring a point the turn you play it at no power cost, and it is the best card in this deck. With 5-6 turn 1 plays that make Gold, our best hands set us up to go long as we take points early. 
+* Efficient removal. Gust and Wages of Pain get weak units off the battlefield at no power cost.  Unfortunately we only have 6 of this effect that don't cost power, but we also have bellows breath and arcane shift in the mid game once we have gold or can afford to pay a power or two. 
+* Shrink effects. The core tenet of this deck is that Ezreal legend let's you “tag team” two spells for shrink + interaction without going down on cards. The list is light on these effects because they can be clunky and double shrink effect often doesn't play well. But you will need to use shrink effects + cheap interaction to fight your opponents 4+ energy units. The most common use of Fizz is to be extra shrink effects.
+* Top end. With 2 each of Watcher and Singularity and Rebuke, we have oomph on the lategame when we need it. But remember this is a tempo deck, so almost every card is dedicated to the early game to get and stay ahead. Singularity is great at slowing your opponent down in the mid game, but watcher and Rebuke are there for the last turn of the game and should be used sparingly and discarded aggressively. 
+
+
+Mulligans
+
+
+Our goal with mulligans is to get points on the board faster than our opponent. None of these are hard and fast rules, but some general heuristics I use: 
+
+
+* If you're not putting a unit in play on turn 1 yet, mulligan 2 cards. Ezreal doesn’t count.
+* Check your opponent’s Chosen Champion.  If it’s going to get in play and rumble on T2-3 and you don’t have a plan for it, mulligan 2 cards.  
+* If you have a unit, you're looking for a Gust or Wages of Pain, a Shrink effect to pair with your second interactive spell, and a Sneaky Deckhand.
+* Send back any cards with a power cost. Our cards are flexible and with Ezreal Legend we won’t run out of cardboard even on 8-10 runes, so we want to focus on building a rune base early. [This one is definitely a guideline if you’re keeping all 4 cards and one costs power]
+
+
+
+
+Gameplay - early turns
+
+
+Your first turn should always be putting a unit in play. 
+
+
+On your second and third turns, denying your opponent points is just as good as scoring more points. Against Red, always consider falling star and favor leaving up runes for playing defense over having exactly two units in play. 
+
+
+If you have Deckhand, consider if you want to play it on 2 or on 3, which is usually a question of if you'll be able to protect it better on 3 and if that's enough of an advantage to delay. 
+
+
+Gameplay - tricks
+
+
+Gust is your best card. It is reaction speed, and can thus “retrick” anything your opponent does. Try to use gust last so if your opponent fights you, they might get blown out. On Reaver’s Row, try to Gust in response to your defense trigger so you can run away if they retrick you.
+
+
+Gust your own units, especially sneaky deckhand. You can even find times to play your Ezreal to a battlefield, enabling you to gust it to safety against falling star. 
+
+
+Arcane Shift + Sneaky Deckhand can score on your opponents turn if they're not careful. Specifically, if you Shift a Deckhand onto an empty battlefield, OR if you shift a deckhand that’s alone on a battlefield on your opponent’s turn, you can score.
+
+
+Ezreal reduces mana costs not just power. There's a tendency to want to save power when repeating Bellows Breath or accelerating Watcher with Ezreal in play, but this deck really cares about the tempo so consider reducing mana costs instead. 
+
+
+When to play Ezreal: generally, if I have a good turn without playing Ez I'll take that. We're playing a lot of vanilla bad units, so if my opponent isn't killing my stuff, I'll try to wait until I'm discarding a dead unit to play Ezreal and maximize my access to good spells. Most opponents will also kill Ezreal on sight (charm, challenge, falling star, etc), so just know and expect that - and don't worry too much about protecting it!
+
+
+Hidden Windsinger has moves.  You can save your unit and still hold a battlefield against removal, and it’s simply a 1 power Gust against attackers.  This deck can easily use all its energy every turn though, so don’t spend the power unless it’s gamebreaking - having a windsinger die to a hasty creature you don’t have a plan for is game losing.
+
+
+Battlefields
+
+
+Game 1 - +1 damage from spells here. This is by far our worst battlefield, but it lets us disguise that we're not control Ezreal, and it's relatively play/draw agnostic. There's not much to say here other than it really helps bellows breath crack holds. 
+
+
+Play - Targon’s Peak. This really lets us snowball, and gets out of control if you have a 2 drop into deckhand.  You'll often conquer here every other turn, since you can't conquer it the turn you hold, so think carefully about whether you want the targons energy now or next turn. 
+
+
+2 drop into Deckhand + Gust + Shrink is nearly unbeatable on the play, and you should mulligan aggressively to maximize how often you have this hand.  This deck on the play is a complete monster, just make sure to plan Targon’s mana around your opponent’s best curve, whether that’s accelerated Kai’sa T2 or T3 lucian + First Mate.
+
+
+Draw - Reavers Row. On the draw, we often don't have the energy to protect our small creatures, and Reavers Row perfectly counteracts that. Be sure to use spells to kill or bounce your opponents units here so they don't get the benefit!  Your goal in the Reaver’s Row game is to play a unit on 1, and use your interaction to prevent your opponent from holding.  Windsinger is our second best card on the draw behind deckhand, as turn 2-3 it develops our board while removing a unit from our opponent.
+
+
+Note that Reaver’s Row also plays exceedingly well with Watcher, as it lets us use the accelerated Watcher for full value, protect it, then have a full turn to Arcane Shift and abuse the shrink effect with 5-6 energy remaining.
+
+
+Sideboarding - 
+Our sideboard cards are very targeted, so rather than matchup by matchup guides (which I will have later), it's easier to understand card by card what they counter. 
+
+
+2 Retreat - anti-falling star. If your opponents plan is to kill your stuff, just retreat your deckhands, ezreal, or fizz back to hand to pull ahead on cardboard.  
+
+
+2 pickpocket - anti-seal. I used to run 3, but good players (especially miracle draven) hold their seals until they have an explosive turn where they can tax the 3 energy cost, so I found that you often don’t want 3, and with 10 ways to rebuy a 3 might unit, one copy can go a long way.
+
+
+1 rebuke - anti-”cheap might for power”. Great at punishing Irelia and Jax type decks because defy doesn't counter Rebuke. As a general rule, if your opponent’s entire gameplan is to protect a single unit, or they have a lot of ways to spend power for cheap might, you want Rebuke. (6+ equipment, Punch First, Irelia/Ornn).
+
+
+1 hard bargain - anti- Time Warp, Defy+other interaction.  Spawn camp matchups go long and you usually play exceedingly slowly, so one Hard Bargain clunking up your hand early is okay.  Other than that, you can’t really use hard bargain on your opponent’s turn, so you only want it if a matchup is defined by 1-2 energy spells your opponent casts on your turn.  Green decks with Defy + Not So Fast like Irelia/Jax are the primary usage.  
+
+
+1 orb of warding - anti noxus hopeful. Your deck is built to handle 3 might units, so if your opponent is specifically casting noxus hopeful and a 4 might champion unit (Kaisa, draven) orb plays well as a 4th stupify. 
+
+
+1 smokescreen - Anti-”cheap might for power”.  Similar to Rebuke, if your opponent is spending power to make large units you want this to counteract them.. It’s the perfect counter to Spinning Axe or BF Sword, and is great against any deck planning on tapping out consistently for 6-7 might units like Mindsplitter or Forerunner.
+
+
+—--------
+
+
+A note on card removals:
+
+
+
+
+
+Matchups - 
+
+
+
+
+Draven Midrange:
++ Smoke screen, orb, 2 retreat
+- [Play] 3 Ravenbloom Student, 1 Watcher [TBD: I don’t like trimming the last 2 students as retreat/gust + stupify can blow out falling star by making a 4/4 student, but I don’t have better cuts]
+- [Draw] 3 Plundering Poro, 1 Rebuke
+
+
+Since they have Obelisk of Power when we’re on the play, we trim heavily on 2s as Stacked Deck and Deckhand can both help us find one on turn 1.  On the draw, we often won’t get tempo early and  want to play towards “kill all their stuff” games, so we trim Rebuke, but on the play we want it due to how reliant they are on hidden cards to catch up.
+
+
+You're quite favored here, but you have to play really good riftbound. The games you lose are defined by Spinning Axe and Falling Star.
+
+Falling Star can put you irreparably behind on tempo if you’re not careful.  Favor playing “defense” against their attacks if your hand allows rather than deploying a 2nd unit.  Going up to 3 units is a solid turn, but make sure you have a plan for Falling Star if you go to exactly 2 units.
+
+Spinning Axe is reaction speed and can counter your interaction plus leave behind a massive body you have to deal with.  Always plan your interactive turns with an extra gust or shrink effect to counter Axe, because if they win an exchange keeping around a unit equipped with Axe, you’re going to struggle to catch up and it’s often Singularity or bust.  
+
+
+
+
+
+
+Draven Miracle 
++ Smokescreen, orb, 2 Pickpocket
+- [Play] 2 Rebuke, 2 Windsinger
+- [Draw] 2 Rebuke, 1 Gust, 1 Wages of Pain
+
+
+Again, we can trim on 2s on the play due to Obelisk of Power.  
+
+
+Counter to Midrange Draven, they tend to run 1 Spinning Axe main and 1 Falling Star sideboard, so the earlygame is often a breeze.  You still need to think about and beat these cards when your draw allows, but “make them have it” is a much more reasonable plan here.
+
+Your goal is to be all out aggressive.  You want an answer to Draven in your opener (shrink + gust ideally) and then just units to ensure you take maximum points while they sit back drawing cards.  Your goal is to get to 6 before they’re fully set up, and either win the turn afterwards or, if they put up a good defense, try to put a Watcher in base and find Arcane Shift + multiple spells to clear their battlefields and get rid of their hidden Fight or Flights.  
+
+
+
+
+Irelia 
++ Bargain, Rebuke, Smokescreen
+- 2 Arcane Shift, 1 [Singularity or Watcher]
+
+
+We have a lot of bad cards here; shift is the worst as it costs power to get defied or countered by a pump spell.  Singularity and Watcher are both pretty bad, but singularity sometimes picks off a Herder or an irelia they tapped out for, and Watcher sometimes lets you outsize an irelia if you blow through all their pump spells.   I tend to cut Watcher since I’ll happily singularity a single stellacorn if they’re tapped out.
+
+
+Our worst or second worst matchup, IF they have lonely Poro + deckhand. 
+
+
+This matchup is all about tempo. They have reaction speed pump to counter your gusts and wages, and their spells are actually cheaper than yours. Stellacorn Herder is the nightmare card for us, and it should be killed on sight whenever possible (yes, that means Singularity targeting just Stellacorn is viable).  It being at 3 might means you have to blink first if they attack your units, which gives them the flexibility to win the game just by running a Stellacorn across the map every turn.  
+
+
+The way you win games is Rebuke.  Everything else in your deck can be countered easily, but their only answer to Rebuke is Not So Fast (sometimes sideboard Flash).  Your goal is to stay even on points and put them in a position with only 1 unit in play.  You then want to start a fight with both players having al their mana available, and resolve Rebuke after they have invested enough mana they can’t replay the unit you’re rebuking that turn.  If you do this, they’ll end up with no units in play for one turn cycle where you can score 2 points uncontested, and then they will have to overextend to play defense later, allowing you to close out the game.  
+
+
+If I wanted to fix this matchup, I’d find room for Vexes in the deck.  Vex is the perfect card because its 5 might makes them blink first, and the increased cost for their counterspells is often enough to let you win exchanges on defense.  
+
+This is also the only matchup where our opponent uses our battlefields better than we do.  If we play our normal strategy and use Targon’s on the play, this pairs unfortunately poorly for us because in the midgame where both players are trying to take both battlefields every turn, it gives them the extra runes they need to pay for their “Draw if you conquer with a mighty unit” battlefield.  There is a STRONG consideration to swapping Reaver’s Row on the play so that your Targons is in the same game as their Obelisk of Power and they have infinity mana but no source of extra cards besides Stellacorn.  I haven’t decided which plan I like better, so you should test for yourself and see how both feel.
+
+Ezreal 
++ 2 Pickpocket, 2 Retreat
+- 2 Rebuke, 1 Smoke Screen, 1 Watcher
+
+
+I trim both Rebukes because I’ll beat Mundo since they’re at 1 or zero points and it will naturally shrink, and I opt not to bring in Hard Bargain as they only have one singularity so while it’s good vs Wages early, there are only a few spells of theirs it’s good against.  Windsinger/Gust protectour own units from them untapping and Wages on them, so I opt to keep them but if you trimmed 1 for Hard Bargain I wouldn’t fault you.
+
+
+It's a mirror, but you have aggressive options to take points much much faster than them if they leave openings.  Do your best to prevent Vex from getting into combat while you have multiple units deployed, as they can get some nasty Bellows Breath turns with the cost reduction.  
+
+That said, you have almost the same amount of card generation as them except the 3 Called Shots, so if you can keep them off purple seals with Pickpocket you should be able to keep up with them long enough to close out the game.  I haven’t played a lot of this matchup, but Sneaky Deckhand is an all star, often ending the game by being played to both battlefields with the help of retreat and gust.  
+
+
+Kaisa 
++ 2 Retreat 1 Bargain 1 Orb
+-2 Rebuke, -2 Watcher
+
+
+Orb helps you draw cards when you kill their 2s, but if my opponent sees it game 2 and resideboards, I’ll take it out to dodge their pickpockets. Watcher is good, and both games should have Reaver’s Row to protect it from their watchers, but they have singularity and falling star to pair with Stupefy on it so I don’t like to have it rot in my hand in the long grindy games. They can sometimes have Mundo and always have Forerunner, so I like keeping 1 Smokescreen even though it’s not amazing in most spots.  
+
+
+Likely our true hardest matchup.  This one is very similar to the Ezreal mirror, but harder in every way as their spells are simply cheaper.  They have the Deflect Poro and Kaisa which both require work and investment to kill, they often have Retreat to protect either, and Hextech Ray + Falling Star set them up perfectly to play defense against your best draws.  
+
+The primary upside is they play fewer unit than we do, and they will need to rely on a turn off for Progress Day to keep up on cards.  Prioritize keeping their points as low as possible over trying to score points quickly, but try to stay in a position where you can double Deckhand the turn they Progress Day, and ideally have Gust or Retreat spare to have another Deckhand the turn afterwards.  Remember that they play multiple Time Warps, so they can win from 5 if you let them get there, which is why keeping their score low is the top priority.
+
+
+
+
+Jax 
++Smokescreen, Rebuke
+-2 Arcane Shift
+
+
+Watcher and Rebuke are generally enough to crack a game, and they have so much equipment and no real ready units, so we strive to just bounce their equipped units and put them irreparably behind rather than dealing 3 to them.  They also have Challenge + Charm to immediately eat the Ezreal consistently, so we’re light on Shift targets anyways.
+
+
+Jax only plays 3 Clockwork Keepers as units on turn 1, and their only source of a ready unit from hand is (often only 2) First Mate.  They are also light on units in general, and their interactive spells (challenge, charm) both require them to have units already and cost them power.  Do your best to play as a classic “spawn camp” deck, and be willing to Rebuke early to keep Charm offline.  
+
+Your goal is to be as aggressive as possible so they don’t have time to put their Jax in play, because once that’s in play they can play like Irelia with a Deflect creature and reaction-speed equipment to counter your gusts.  
+
+This matchup has felt quite good though because they are simply trying to craft a Voltron and don’t have enough answers to Rebuke.  We can consider boarding in Hard Bargain because, like Irelia, a resolved Rebuke can often win the game on the spot.
+
+
+Midrange piles 
++ Smokescreen/Rebuke
+
+
+There are a lot of different decks here, but I’m lumping them together as the play patterns are consistent across decks like Azir, Fiora, Sett, etc.  Any deck playing “good honest set 1 riftbound” is going to meet a rude awakening against your tempo plan.  Consult the Sideboarding section above for when cards should come in, but as a general rule  any deck trying to just “curve out and put power in play”, we board in our 2 extra “make that big creature not be a big creature” cards and just run them over by playing 2 gears faster than their deck is ready to handle.
+
+
+Annie
+* Orb, 2Retreat, 1 Smoke Screen
+* 2 Watcher, 1 Rebuke, 1 TBD (Stacked Deck, Windsinger?)
+
+
+
+
+Contrary to every other matchup, Annie is faster than you.  They should have Longswords and Flash to counter your interactive spells, they have their own deckhands, and they have Noxus Hopeful to make 4 might bodies that require two spells to answer.  For playing against Longsword, see the Spinning Axe section of Draven.  
+
+Luckily for you, a typical Annie deck struggles to find extra cardboard.  Flip everything you know about this deck on its head and play purely defensively.  Run them out of units before they’re at 5 points, and you can win the game leisurely at your own pace.  If you can, find a Rebuke and leave a Student at a battlefield to insulate yourself against Vi + Ride the Wind.
+
+
+They can have Brynhir and Forerunners that help them score a few points late, which is why it’s so important keep them down earlygame.  
+
+On the play you may have draws that can tempo them out with Targon’s so be open to that, but be ready to pivot to defense if they have an explosive Hopeful draw.  
+
+
+Flex Slots
+
+
+A lot of cards in this deck are simply fixed as they are the best possible option.  But there is room to tweak the list to your own desires.
+
+Notable missing cards:
+- Called Shot: This one may come as a surpirse, but with how tempo-forward this deck is, having a card that you don’t know what it is until you spend runes is a high cost.  I have opted for Fizz + Arcane Shift instead in this slot so I know exactly what I’m getting when I cast my “whammy” midgame spell.  Most opponents will kill your Ezreal on sight as well, so Called Shot often costs 2 power by the time you use it.
+- Vex: This card is amazing, and is the only option if you want to actually play defense after you fall behind on points.  That said, Brynhyr is popular and cards like Fight or Flight/rebuke are so bad against you that I found giving my opponent a use for those spells isn’t worth the slot.  The card is very good and seriously improves your Irelia matchup, so if you’re willing to sometimes have your opponent get a mana advantage when they kill it with Challenge, Charm, or Rebuke, then this card is a great include to make the deck more well-rounded and capable of playing from behind.
+- Windsinger: A surprise for some, but this deck just wants more “no power, deal with your 3 might thing” cards.  No one expects it from hidden, so you can play it at reaction speed (and even save your deckhand from removal + hold a battlefield).  This card also is one of the best ways to catch up tempo on the draw as turn 2 you can prevent their 2 from holding while enabling you to score 2 points on turn 3.  You can also bounce your own creatures that are about to be eaten in combat.  It’s competing for space with Treasure Hunter, and Hunter is much better on the play but can often be hard to use on the draw, so whether you want to close out games you’re already good in or have slightly better catch-up on the draw is personal preference.
+- Treasure Hunter: The alternative to Windsinger, its’ better on the play but as this deck’s already strong on the play, I’ve opted for Windssinger in the current build.
+-Orb of Warding: If I were to find room for an extra shrink effect main, it would be 1 Orb.  The ability to trigger your Legend when you’re just killing a weak 2 is strong, and the meta is flush with 4 might units right now
+-Third Bellows Breath: This card leads to massive blowouts, and especially if you do manage to untap with Ezreal in play, multiple copies of this card can lead to complete board wipes.  With how popular “big 4-6 energy thing” decks are I’ve opted to not include the Bellows, but if more First Mate decks were popular, I’d have the third bellows in my sideboard to help sweep up their entire board.  It’s my 9th Sideboard card and I very well may register it for the upcoming tournament.   
+
+
+
+
+Flexible cuts:
+2nd Arcane Shift: It costs a power for 3 damage, and there are only 5 (8 if you count Deckhand) units you really want to “flicker” in the deck so it’s another “only good with A + B” card.  
+3rd Treasure Hunter: You really do want a 2 every game on the play to maximize your earlygame, and the Gold generators are SO much better than turn 1 Student.  That said, it’s only about a 4% [82% vs 86%] differential on having a play on turn 1, so while it increases the quality of your 2 a lot, statistically you will play ~0.5 games extra with no turn 1 play in a large tournament (since this only matters on the draw).  If you wanted more lategame oomph, cutting the 3rd treasure hunter for any of the options above is very reasonable.
+2nd Watcher: Weirdly, your deck is so aggressive that you just don’t need Watcher every game. You’ll want 2 Watcher in the 48, but it’s easily a flexible slot especially if you are using it to make space for Vex.
+1 Stacked Deck: I’m not psychopathic enough to cut this card, but honestly, it’s pretty mid in your opener.  This deck wants to spend every energy playing to the board in the first 3 turns of the game, so Stacked Deck can really be thought of as “I draw the lategame card I need more often”.  With Fizz helping you dig deep to whatever you’re looking for when there’s a single blowout card you need, I think 3 Stacked Deck is just right, but I wouldn’t fault anyone for playing 2.
+1 Smoke Screen: The last “Shrink” effect is flexible.  You can play 3rd Frigid or 1st Orb in this slot; I went for the most tempo-positive option so if I draw 2 “big shrinks” I can choose between spending Energy and Power, but the total Power cost in this deck is high Smoke Screen isn’t a free inclusion.
+
+
+Battlefields:
+I am confident the postboard battlefields are best possible - extra energy on the play from Targon’s gives so many free wins, and Reaver’s Row on the draw lets you tap out for Sneaky Deckhand without risking it to combat.  
+
+The decision point is in your game 1 battlefield.  Void Gate is definitively solid, letting you kill 4 might units with spells periodically and supercharging Bellows Breath.  It also is the game 1 battlefield that “classic control Ezreal” uses, so you get to obfuscate your gameplan.  Void Gate is relatively low reward though; as we don’t play defense a good opponent will often be able to position their units properly so the +1 damage comes up in less than 50% of games.   It’s extremely asymmetrical, opens your opponent up to make mistakes, but just doesn’t have a high ceiling.
+
+The option with an extremely high ceiling is Fortified Position.  Similar to Reaver’s Row, it plays well on the draw with Sneaky making your opponent work to eat your unit.  And if you’re on the play you’ll get the benefit and your opponent will have to “blink first” when attacking that battlefield, allowing you to use your powerful reactions to interact.  It’s also surprisingly asymmetrical - similar to Reaver’s Row, because you interact primarily with spells and not combat so you can clear the way for your 2s to walk freely onto it.  Since Gust is a Reaction and the battlefield targets with a trigger, you can also attack student into two 2 might units, and Gust back the one they try to give shield.  
+
+Fortified Position is high risk though - without a spell to remove your opponents’ unit, the extra +2 on defense is backbreaking.  If you are playing Vex, the Shield 2 also makes it much easier to Charm your Vex off the board, so you have to be extremely wary of that.
