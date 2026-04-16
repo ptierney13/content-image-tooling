@@ -1,5 +1,8 @@
 __pycache__/
 *.pyc
+_tmp_*.png
+.claude/settings.local.json
 
 Video Tooling/Image Generation/_tmp_refactor_verify/
+Video Tooling/Image Generation/_card_cache/
 Video Tooling/Image Generation/**/_card_cache/

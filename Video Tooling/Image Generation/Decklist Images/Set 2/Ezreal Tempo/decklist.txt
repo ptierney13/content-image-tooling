@@ -1,0 +1,38 @@
+Legend:
+1 Ezreal, Prodigal Explorer
+
+Champion:
+1 Ezreal, Prodigy
+
+MainDeck:
+3 Stupefy
+3 Gust
+3 Sneaky Deckhand
+3 Stacked Deck
+3 Frigid Touch
+3 Plundering Poro
+3 Wages of Pain
+3 Bellows Breath
+3 Windsinger
+2 Ravenbloom Student
+2 Singularity
+2 Thousand-Tailed Watcher
+2 Rebuke
+1 Sprite Call
+3 Fizz, Trickster
+
+Battlefields:
+1 Fortified Position | Draw
+1 The Arena's Greatest | Play
+1 Marai Spire | Game 1
+
+Runes:
+7 Chaos Rune
+5 Mind Rune
+
+Sideboard:
+2 Retreat
+2 Factory Recall
+2 Hard Bargain
+1 Rebuke
+1 Vex, Cheerless

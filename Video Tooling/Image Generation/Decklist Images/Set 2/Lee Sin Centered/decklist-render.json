@@ -1,0 +1,25 @@
+{
+  "decklist_path": "decklist.txt",
+  "card_assets": {
+    "require_official_assets": true,
+    "cache_dir": "../../../_card_cache/riftbound-official/images",
+    "catalogs": [
+      "../../../_card_cache/riftbound-official/catalog-en-us.json"
+    ]
+  },
+  "plans": {
+    "Starter Poster": {
+      "type": "decklist",
+      "deck_name": "Lee Sin Centered",
+      "subtitle": "Set 2",
+      "output_dir": "Deck Images",
+      "output_image": "lee-sin-centered-starter.png",
+      "background": {
+        "base_color": [12, 15, 22, 255],
+        "accent_color": [214, 178, 102, 255],
+        "secondary_accent": [75, 118, 182, 255],
+        "vignette_alpha": 92
+      }
+    }
+  }
+}

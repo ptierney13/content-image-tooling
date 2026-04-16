@@ -1,0 +1,36 @@
+Legend:
+1 Lee Sin, Blind Monk
+
+Champion:
+1 Lee Sin, Centered
+
+MainDeck:
+3 Charm
+3 En Garde
+3 Stalwart Poro
+3 Discipline
+3 Wizened Elder
+3 Challenge
+3 First Mate
+3 Dragon's Rage
+3 Lonely Poro
+2 Pit Rookie
+2 Deadbloom Predator
+2 Heart of Dark Ice
+2 Punch First
+1 Sterak's Gage
+3 Irelia, Fervent
+
+Battlefields:
+1 Grove of the God-Willow | Play
+1 Monastery of Hirana | Game 1
+1 Sunken Temple | Draw
+
+Runes:
+6 Calm Rune
+6 Body Rune
+
+Sideboard:
+3 Unyielding Spirit
+3 Ruin Runner
+2 Akshan, Mischievous
