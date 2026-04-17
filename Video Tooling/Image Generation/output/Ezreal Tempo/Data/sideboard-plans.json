@@ -1,0 +1,65 @@
+{
+  "layout": "layout.json",
+  "base_image": "sources/ezreal-tempo-maindeck.png",
+  "default_reference_style": "references/irelia-matchup-sb-guide.png",
+  "plans": {
+    "Irelia": {
+      "reference_image": "references/irelia-matchup-sb-guide.png",
+      "output_path": "../Irelia/irelia-matchup-sb-guide.png",
+      "annotations": [
+        { "slot": "maindeck.bellows_breath", "type": "x" },
+        { "slot": "maindeck.singularity", "type": "x" },
+        { "slot": "maindeck.thousand_tailed_watcher", "type": "minus_one" },
+        { "slot": "sideboard.factory_recall", "type": "check" },
+        { "slot": "sideboard.hard_bargain", "type": "check" },
+        { "slot": "sideboard.rebuke", "type": "check" },
+        { "slot": "sideboard.vex", "type": "check" }
+      ]
+    },
+    "Kai'sa": {
+      "reference_image": "references/irelia-matchup-sb-guide.png",
+      "output_path": "../Kai'sa/Kai'sa Matchup SB Guide.png",
+      "annotations": [
+        { "slot": "maindeck.rebuke", "type": "minus_one" },
+        { "slot": "maindeck.plundering_poro", "type": "minus_one" },
+        { "slot": "maindeck.ravenbloom_student", "type": "x" },
+        { "slot": "sideboard.retreat", "type": "check" },
+        { "slot": "sideboard.hard_bargain", "type": "check" }
+      ]
+    },
+    "Midrange Yi": {
+      "reference_image": "references/irelia-matchup-sb-guide.png",
+      "output_path": "../Midrange Yi/Midrange Yi Matchup SB Guide.png",
+      "annotations": [
+        { "slot": "maindeck.bellows_breath", "type": "x" },
+        { "slot": "maindeck.sprite_call", "type": "minus_one" },
+        { "slot": "maindeck.wages_of_pain", "type": "minus_one" },
+        { "slot": "maindeck.fizz", "type": "minus_one" },
+        { "slot": "sideboard.factory_recall", "type": "check" },
+        { "slot": "sideboard.hard_bargain", "type": "check" },
+        { "slot": "sideboard.rebuke", "type": "check" },
+        { "slot": "sideboard.vex", "type": "check" }
+      ]
+    },
+    "Draven Play": {
+      "reference_image": "references/irelia-matchup-sb-guide.png",
+      "output_path": "../Draven/Draven Play Matchup SB Guide.png",
+      "annotations": [
+        { "slot": "maindeck.sprite_call", "type": "minus_one" },
+        { "slot": "maindeck.fizz", "type": "minus_one" },
+        { "slot": "sideboard.rebuke", "type": "check" },
+        { "slot": "sideboard.vex", "type": "check" }
+      ]
+    },
+    "Draven Draw": {
+      "reference_image": "references/irelia-matchup-sb-guide.png",
+      "output_path": "../Draven/Draven Draw Matchup SB Guide.png",
+      "annotations": [
+        { "slot": "maindeck.sprite_call", "type": "minus_one" },
+        { "slot": "maindeck.windsinger", "type": "minus_one" },
+        { "slot": "sideboard.rebuke", "type": "check" },
+        { "slot": "sideboard.vex", "type": "check" }
+      ]
+    }
+  }
+}

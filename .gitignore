@@ -6,3 +6,5 @@ _tmp_*.png
 Video Tooling/Image Generation/_tmp_refactor_verify/
 Video Tooling/Image Generation/_card_cache/
 Video Tooling/Image Generation/**/_card_cache/
+Video Tooling/Image Generation/Data/card-cache/
+Video Tooling/Image Generation/output/*/Data/cards/

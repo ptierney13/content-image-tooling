@@ -1,0 +1,164 @@
+{
+  "base_image": "sources/ezreal-tempo-maindeck.png",
+  "card_assets": {
+    "cache_dir": "../../../Data/card-cache/riftbound-official/images",
+    "catalogs": [
+      "../../../Data/card-cache/riftbound-official/catalog-en-us.json"
+    ]
+  },
+  "plans": {
+    "Midrange Yi Matchup Summary": {
+      "type": "informative",
+      "output_path": "../Midrange Yi/Midrange Yi Matchup Summary.png",
+      "title": "Midrange Yi Matchup Summary",
+      "background": {
+        "kind": "pattern"
+      },
+      "cards": [
+        {
+          "card_name": "Thousand-Tailed Watcher"
+        }
+      ],
+      "body_font_size": 42,
+      "text_top": 226,
+      "text_bottom": 820,
+      "line_spacing": 10,
+      "bullet_spacing": 34,
+      "bullets": [
+        "Be aggressive, every point matters",
+        "Defend battlefields when possible",
+        "Strand their Ruin Runners",
+        "Dig for Thousand-Tailed Watcher",
+        "Don't play scared, make them have it"
+      ]
+    },
+    "Draven Matchup Guide": {
+      "type": "informative",
+      "output_path": "../Draven/Draven Matchup Guide.png",
+      "title": "Draven Matchup Guide",
+      "background": {
+        "kind": "pattern"
+      },
+      "body_font_size": 38,
+      "text_top": 214,
+      "top_bullets_bottom": 438,
+      "line_spacing": 8,
+      "bullet_spacing": 26,
+      "bullet_indent": 44,
+      "sections_top": 518,
+      "sections_bottom": 932,
+      "section_title_font_size": 44,
+      "section_body_font_size": 32,
+      "section_line_spacing": 8,
+      "section_bullet_spacing": 20,
+      "section_bullet_indent": 38,
+      "section_gap": 82,
+      "bullets": [
+        "Win Game 1",
+        "Keep the Board Empty",
+        "Conserve Runes Early",
+        "Identify Your Role"
+      ],
+      "sections": [
+        {
+          "title": "Beat them to 6",
+          "bullets": [
+            "Correct if you can hit 6 first",
+            "Let them draw cards, prioritize points",
+            "Respect Spinning Axe"
+          ]
+        },
+        {
+          "title": "Run them out of Cards",
+          "bullets": [
+            "Don't let them draw cards",
+            "Trade your units for theirs",
+            "Play defense if you can beat Brynhyr"
+          ]
+        }
+      ]
+    },
+    "Ezreal Tempo Maindeck Featuring Ruin Runner": {
+      "type": "feature",
+      "base_slide": "sources/ezreal-tempo-maindeck.png",
+      "output_path": "../Midrange Yi/ezreal-tempo-maindeck-featuring-ruin-runner.png",
+      "background": {
+        "blur_radius": 20,
+        "brightness": 0.5,
+        "saturation": 0.42,
+        "overlay_color": [10, 10, 14, 116],
+        "pattern_overlay": false
+      },
+      "card_layout": {
+        "mode": "featured_center",
+        "top_margin": 24,
+        "bottom_margin": 24,
+        "side_margin": 120
+      },
+      "cards": [
+        {
+          "card_name": "Ruin Runner"
+        }
+      ]
+    },
+    "Draven High Value Card Options": {
+      "type": "follow_up",
+      "output_path": "../Draven/Draven High Value Card Options.png",
+      "title": "High Value Card Options",
+      "base_slide": "../Draven/Draven Matchup Guide.png",
+      "background": {
+        "blur_radius": 18,
+        "brightness": 0.42,
+        "saturation": 0.38,
+        "overlay_color": [8, 10, 14, 142],
+        "pattern_overlay": true
+      },
+      "cards": [
+        {
+          "card_name": "Arcane Shift"
+        },
+        {
+          "card_name": "Rhasa the Sunderer"
+        },
+        {
+          "card_name": "Mindsplitter"
+        }
+      ]
+    },
+    "High Value Card Options": {
+      "type": "follow_up",
+      "output_path": "../Midrange Yi/High Value Card Options.png",
+      "title": "High Value Card Options",
+      "base_slide": "sources/ezreal-tempo-maindeck.png",
+      "background": {
+        "blur_radius": 18,
+        "brightness": 0.42,
+        "saturation": 0.38,
+        "overlay_color": [8, 10, 14, 142],
+        "pattern_overlay": true
+      },
+      "layout_notes": {
+        "card_shift_fraction_of_image_width": 0.075,
+        "card_shift_px": 143,
+        "battlefield_box": [271, 392, 871, 818],
+        "aligned_card_midline_y": 605,
+        "battlefield_to_first_portrait_gap_midpoint_x": 911
+      },
+      "cards": [
+        {
+          "card_name": "Void Gate",
+          "layout_role": "battlefield",
+          "box": [271, 392, 871, 818]
+        },
+        {
+          "card_name": "Unchecked Power",
+          "box": [951, 370, 1291, 840]
+        },
+        {
+          "card_name": "Downwell",
+          "box": [1327, 370, 1667, 840]
+        }
+      ]
+    }
+  }
+}
