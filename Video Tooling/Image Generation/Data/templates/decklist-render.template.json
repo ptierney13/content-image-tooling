@@ -1,0 +1,24 @@
+{
+  "decklist_path": "decklist.txt",
+  "card_assets": {
+    "require_official_assets": true,
+    "cache_dir": "../../../Data/card-cache/riftbound-official/images",
+    "catalogs": [
+      "../../../Data/card-cache/riftbound-official/catalog-en-us.json"
+    ]
+  },
+  "plans": {
+    "Starter Poster": {
+      "type": "decklist",
+      "deck_name": "Deck Name",
+      "subtitle": "Set N",
+      "output_path": "../maindeck.png",
+      "background": {
+        "base_color": [12, 15, 22, 255],
+        "accent_color": [214, 178, 102, 255],
+        "secondary_accent": [75, 118, 182, 255],
+        "vignette_alpha": 92
+      }
+    }
+  }
+}

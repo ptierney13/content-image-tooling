@@ -1,0 +1,70 @@
+{
+  "items": [
+    {
+      "name": "Ezreal Tempo maindeck",
+      "config": "output/Ezreal Tempo/Data/decklist-render.json",
+      "plan": "Starter Poster",
+      "new_output": "output/Ezreal Tempo/maindeck.png"
+    },
+    {
+      "name": "Lee Sin Centered maindeck",
+      "config": "output/Lee Sin Centered/Data/decklist-render.json",
+      "plan": "Starter Poster",
+      "new_output": "output/Lee Sin Centered/maindeck.png"
+    },
+    {
+      "name": "Ezreal Tempo Irelia sideboard guide",
+      "config": "output/Ezreal Tempo/Data/sideboard-plans.json",
+      "plan": "Irelia",
+      "new_output": "output/Ezreal Tempo/Irelia/irelia-matchup-sb-guide.png"
+    },
+    {
+      "name": "Ezreal Tempo Kai'sa sideboard guide",
+      "config": "output/Ezreal Tempo/Data/sideboard-plans.json",
+      "plan": "Kai'sa",
+      "new_output": "output/Ezreal Tempo/Kai'sa/Kai'sa Matchup SB Guide.png"
+    },
+    {
+      "name": "Ezreal Tempo Midrange Yi sideboard guide",
+      "config": "output/Ezreal Tempo/Data/sideboard-plans.json",
+      "plan": "Midrange Yi",
+      "new_output": "output/Ezreal Tempo/Midrange Yi/Midrange Yi Matchup SB Guide.png"
+    },
+    {
+      "name": "Ezreal Tempo Draven play sideboard guide",
+      "config": "output/Ezreal Tempo/Data/sideboard-plans.json",
+      "plan": "Draven Play",
+      "new_output": "output/Ezreal Tempo/Draven/Draven Play Matchup SB Guide.png"
+    },
+    {
+      "name": "Ezreal Tempo Draven draw sideboard guide",
+      "config": "output/Ezreal Tempo/Data/sideboard-plans.json",
+      "plan": "Draven Draw",
+      "new_output": "output/Ezreal Tempo/Draven/Draven Draw Matchup SB Guide.png"
+    },
+    {
+      "name": "Ezreal Tempo Midrange Yi matchup summary",
+      "config": "output/Ezreal Tempo/Data/slide-plans.json",
+      "plan": "Midrange Yi Matchup Summary",
+      "new_output": "output/Ezreal Tempo/Midrange Yi/Midrange Yi Matchup Summary.png"
+    },
+    {
+      "name": "Ezreal Tempo Draven matchup guide",
+      "config": "output/Ezreal Tempo/Data/slide-plans.json",
+      "plan": "Draven Matchup Guide",
+      "new_output": "output/Ezreal Tempo/Draven/Draven Matchup Guide.png"
+    },
+    {
+      "name": "Ezreal Tempo Ruin Runner feature slide",
+      "config": "output/Ezreal Tempo/Data/slide-plans.json",
+      "plan": "Ezreal Tempo Maindeck Featuring Ruin Runner",
+      "new_output": "output/Ezreal Tempo/Midrange Yi/ezreal-tempo-maindeck-featuring-ruin-runner.png"
+    },
+    {
+      "name": "Ezreal Tempo high value card options",
+      "config": "output/Ezreal Tempo/Data/slide-plans.json",
+      "plan": "High Value Card Options",
+      "new_output": "output/Ezreal Tempo/Midrange Yi/High Value Card Options.png"
+    }
+  ]
+}
